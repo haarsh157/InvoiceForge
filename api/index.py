@@ -108,7 +108,7 @@ HTML_FORM = BASE_HEAD + """
   <script>
     const defaultCharges = [
       "C & F CHARGES", "GODOWN RENT", "COURIER CHARGES", "ELECTRIC BILL",
-      "INTERNET CHARGES", "LOCAL FREIGHT", "LABOUR CHARGES", "HAMALI CHARGES",
+      "INTERNET CHARGES", "LOCAL FREIGHT", "LABOUR CHARGES",
     ];
     function addRow(type = "", amount = "", remark = "") {
       const tbody = document.getElementById("charges-body");

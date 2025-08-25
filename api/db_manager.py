@@ -54,7 +54,6 @@ def migrate_row_to_charges_if_needed(row: Dict[str, Any]) -> List[Dict[str, Any]
         ("INTERNET CHARGES", "internet_charges", "internet_remarks"),
         ("LOCAL FREIGHT", "local_freight", "local_remarks"),
         ("LABOUR CHARGES", "labour_charges", "labour_remarks"),
-        ("HAMALI CHARGES", "hamali_charges", "hamali_remarks"),
     ]
     charges = []
     for label, amount_key, remark_key in pairs:
