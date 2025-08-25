@@ -232,7 +232,7 @@ HTML_RECORDS = BASE_HEAD + """
 @app.route("/", methods=["GET"])
 def form():
     context = {
-        "title": "PDF Generator", "header": "📄 PDF Generator",
+        "title": "Bill Generator", "header": "📄 Bill Generator",
         "action_url": url_for("generate"), "submit_label": "Generate",
         "data": {}, "is_create": True, "charges_json": [],
     }
